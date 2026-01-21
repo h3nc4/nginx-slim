@@ -126,7 +126,7 @@ ARG BUILD_DATE="unknown"
 
 COPY --from=assemble "/" "/"
 USER 65534:65534
-CMD ["/nginx", "-c", "/nginx.conf"]
+ENTRYPOINT [ "/nginx" ]
 
 LABEL org.opencontainers.image.title="NGINX Slim" \
   org.opencontainers.image.description="A minimal nginx container built from scratch" \
