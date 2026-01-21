@@ -63,7 +63,7 @@ WORKDIR "/nginx-${NGINX_VERSION}"
 RUN ./configure \
   --prefix="/run" \
   --pid-path="/run/nginx.pid" \
-  --conf-path="/nginx.conf" \
+  --conf-path="/etc/nginx.conf" \
   --error-log-path="/dev/stderr" \
   --http-log-path="/dev/stdout" \
   --with-pcre \
@@ -76,8 +76,6 @@ RUN ./configure \
   --with-file-aio \
   --without-http_gzip_module \
   --without-http_autoindex_module \
-  --without-http_proxy_module \
-  --without-http_fastcgi_module \
   --without-http_uwsgi_module \
   --without-http_scgi_module \
   --without-http_grpc_module \
