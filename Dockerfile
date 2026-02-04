@@ -17,7 +17,7 @@
 ################################################################################
 
 # NGINX and deps versions
-ARG NGINX_VERSION="1.29.4"
+ARG NGINX_VERSION="1.29.5"
 ARG NGX_BROTLI_COMMIT="a71f9312"
 ARG NGX_BROTLI_SHA256="1d21be34f3b7b6d05a8142945e59b3a47665edcdfe0f3ee3d3dbef121f90c08c"
 
