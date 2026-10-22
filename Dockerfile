@@ -23,7 +23,7 @@ ARG NGX_BROTLI_SHA256="1d21be34f3b7b6d05a8142945e59b3a47665edcdfe0f3ee3d3dbef121
 
 ################################################################################
 # Nginx builder stage
-FROM alpine:3.24@sha256:c6b073f8e9e58d881f6ffba6ebf3b9ebd60b9e7d6e8337018c0e68bb5c356873 AS nginx-builder
+FROM alpine:3.24@sha256:71e9b7bae160ba167fa17414401b94cbcdaf3c32feeab9298bd794a2a0614c35 AS nginx-builder
 ARG NGINX_VERSION
 ARG NGX_BROTLI_COMMIT
 ARG NGX_BROTLI_SHA256
