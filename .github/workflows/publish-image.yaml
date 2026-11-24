@@ -15,7 +15,7 @@ on:
     paths:
       - "Dockerfile"
       - "nginx.conf"
-      - ".github/workflows/publish-image.yaml"
+      - ".github/workflows/**"
 
 jobs:
   build-push:
